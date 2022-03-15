@@ -17,7 +17,7 @@ module Network.Wai.Handler.WarpTLS (
       runTLS
     , runTLSSocket
     -- * Settings
-    , TLSSettings
+    , TLSSettings(..)
     , defaultTlsSettings
     -- * Smart constructors
     -- ** From files
@@ -40,7 +40,6 @@ module Network.Wai.Handler.WarpTLS (
     , tlsServerDHEParams
     , tlsSessionManagerConfig
     , tlsSessionManager
-    , onInsecure
     , OnInsecure (..)
     -- * Exception
     , WarpTLSException (..)
